@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <title>StyleSheet2</title>
+            <link rel="stylesheet" href="css/table.css">
+            <style>
+                body{background-color: brown;}
+                .title{border-radius: 6px;
+                margin: 0;}
+                div.title{padding: 5px;}
+                h1.title{color: white;}
+                p.title{color: white;}
+                .homepage:visited{color: brown}
+
+                .cover{background: white}
+                .red{color: brown;}
+
+                ul {
+                    list-style-type: none;
+                    padding: 0;
+                    float: right;
+                }
+               
+                li {
+                    background-color: brown;
+                    margin: 5px; 
+                    border-radius: 10px;
+                }
+                .second{
+                    background-color: white;
+                    color: brown;
+                    border: 2px solid brown;
+                    font-weight: bold;
+                    text-align: center
+                }
+                li a:link {
+                    color: brown;
+                    text-decoration: none;
+                    display: inline-block;
+                    margin: 3px;
+                }
+                li a:visited{
+                    color: brown;
+                }
+          
+
+                
+                .sidebar{
+                    background-color:rgb(245, 164, 164) ;
+                    color: white;
+                    padding: 1px 3px 5px 7px;
+                    
+                }
+
+                .footer{
+                    color: white;
+                    font-size: 5px;
+                }
+            </style>
+    </head>
+    <body>
+        <div class="title">
+            <h1 class="title">Welcome to My <a class="homepage" href="/main">Homepage</a></h1>
+            <p class="title">Use the menu to select different Stylesheets</p>
+        </div>
+        <div class="cover">
+            <ul>
+                <li><a href="/Stylesheet1">Stylesheet1</a></li>
+                <li class="second"><a href="/Stylesheet2">Stylesheet2</a></li>
+                <li><a href="/Stylesheet3">Stylesheet3</a></li>
+                <li><a href="/Stylesheet4">Stylesheet4</a></li>
+                <li><a href="/NoStylesheet">No Stylesheet</a></li>
+            </ul>
+
+            
+            <h1 class="red">Style Sheets in HTML documents</h1>
+            <p>Style sheets solve these problems at the same time they supersede the ... </p>
+            <p>Authors may link this style sheet to their source HTML document with the LINK element: .... </p>
+            <p>Authors must supply a value for this attribute; there is no default value for this ...</p>
+            <h2 class="red">Table</h2>
+            <table id="customers" border=1>
+                <tbody>
+                    <tr>
+                        <th>Company</th>
+                        <th>Contact</th>
+                        <th>Country</th>
+                    </tr>
+                    <tr>
+                        <td>Alfreds Futterkiste</td>
+                        <td>Maria Anders</td>
+                        <td>Germany</td>
+                    </tr>
+                    <tr class="alt">
+                        <td>Berglunds snabbköp</td>
+                        <td>Christina Berglund</td>
+                        <td>Sweden</td>
+                    </tr>
+                    <tr>
+                        <td>Centro comercial Moctezuma</td>
+                        <td>Francisco Chang</td>
+                        <td>Mexico</td>
+                    </tr>
+                    <tr class="alt">
+                        <td>Ernst Handel</td>
+                        <td>Roland Mendel</td>
+                        <td>Austria</td>
+                    </tr>
+                    <tr>
+                        <td>Island Trading</td>
+                        <td>Helen Bennett</td>
+                        <td>UK</td>
+                    </tr>
+                    <tr class="alt">
+                        <td>Königlich Essen</td>
+                        <td>Philip Cramer</td>
+                        <td>Germany</td>
+                    </tr>
+                    <tr>
+                        <td>Laughing Bacchus Winecellars</td>
+                        <td>Yoshi Tannamuri</td>
+                        <td>Canada</td>
+                    </tr>
+                    <tr class="alt">
+                        <td>Magazzini Alimentari Riuniti</td>
+                        <td>Giovanni Rovelli</td>
+                        <td>Italy</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="sidebar">
+                    <h3 class="red">Side-Bar</h3>
+                        <div>
+                            Always display the navigation pane to the left of the page content
+                            Use a collapsible, "fully automatic" responsive side navigation
+                            Open navigation pane over the left part of the page content
+                            Open navigation pane over all of the page content
+                        </div>
+                    </div>
+        </div>
+        
+                <div class="footer">
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                        when an unknown printer took a galley of type and scrambled it to make a type 
+                        specimen book. It has survived not only five centuries, but also the leap into
+                         electronic typesetting, remaining essentially unchanged. It was popularised 
+                         in the 1960s with the release of Letraset sheets containing Lorem 
+                         Ipsum passages, and more recent desktop publishing software like
+                          Aldus PageMaker including versions of Lorem Ipsum.
+                    </p>
+                </div>
+    </body>
+</html>
